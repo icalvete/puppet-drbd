@@ -6,6 +6,13 @@ Puppet manifest to install and configure drbd.
 
 At this time, ubuntu 12.04 have a [bug](https://bugs.launchpad.net/ubuntu/+source/drbd8/+bug/1103656) 
 
+This bugs can be fixed ussing:
+
+* linux-signed-image-3.8.0-31-generic package 
+* [drbd8-utils_8.4.3-0ubuntu0.12.04.1_amd64.deb](https://bugs.launchpad.net/ubuntu/+source/drbd8/+bug/1185756/+attachment/3851297/+files/drbd8-utils_8.4.3-0ubuntu0.12.04.1_amd64.deb)
+
+See [this](https://bugs.launchpad.net/ubuntu/+source/drbd8/+bug/1185756)
+
 ##Actions:
 
 * Works in Debian|Ubuntu|RedHat|CentOS
