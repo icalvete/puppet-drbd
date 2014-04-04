@@ -24,6 +24,7 @@ See [this](https://bugs.launchpad.net/ubuntu/+source/drbd8/+bug/1185756)
 
 ##Example:
 
+```puppet
     node 'centos01.smartpurposes.net' inherits sp_defaults {
       include roles::puppet_agent
       
@@ -64,6 +65,7 @@ See [this](https://bugs.launchpad.net/ubuntu/+source/drbd8/+bug/1185756)
       }
     }
 
+```
 
 ##Authors:
 
