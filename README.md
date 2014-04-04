@@ -17,6 +17,7 @@ At this time, ubuntu 12.04 have a [bug](https://bugs.launchpad.net/ubuntu/+sourc
 
 ##Example:
 
+```puppet
     node 'centos01.smartpurposes.net' inherits sp_defaults {
       include roles::puppet_agent
       
@@ -57,6 +58,7 @@ At this time, ubuntu 12.04 have a [bug](https://bugs.launchpad.net/ubuntu/+sourc
       }
     }
 
+```
 
 ##Authors:
 
